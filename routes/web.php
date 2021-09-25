@@ -4,7 +4,15 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/deposit', function () {
+    return view('deposit');
+});
+
+Route::get('/deposit2', function () {
+    return view('deposit_2');
 });
 
 Auth::routes();

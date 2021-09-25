@@ -37,7 +37,7 @@
         @include('layouts.header')
 
         <!-- ========== Left Sidebar Start ========== -->
-        @include('layouts.sidebar')
+        {{-- @include('layouts.sidebar') --}}
         <!-- Left Sidebar End -->
 
 
@@ -47,7 +47,7 @@
         <div class="main-content">
 
             <div class="page-content">
-                <div class="container-fluid mt-5">
+                <div class="container mt-5">
                     @yield('content')
                 </div> <!-- container-fluid -->
             </div>
